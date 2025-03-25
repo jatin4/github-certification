@@ -5,3 +5,8 @@ Hi this is new Repository for Gitub certification. Please refer to the below com
 git init
 ```
 This commands is used to initialize the repository.
+
+## Create Remote
+```sh
+git config --list
+```
