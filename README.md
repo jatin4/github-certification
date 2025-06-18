@@ -23,3 +23,28 @@ Git config —edit —global
 
 # Filter any value
 git config --global --list | grep user.name
+
+--------------------------------------------------------------------------
+# 2. GIT BRANCH COMMANDS
+
+# Create Branch
+git checkout -b branchName
+
+# Push New Branch
+git push --set-upstream origin one
+
+# List Branch
+git branch 
+git branch --list
+git branch --all
+git branch --remote
+
+# Switch Branch
+git checkout branchName
+
+# Delete Branch
+git branch -d branchName
+git branch -D branchName
+
+# Delete Branch from Origin
+git push origin -d BranchName
